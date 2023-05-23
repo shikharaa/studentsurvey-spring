@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+    <link rel=”stylesheet” href=”css/bootstrap.css”>
+    <link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" type = "text/css" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body class = "active">
+    <div class="wrapper" style="clear:both;">
+        <div class = 'sidebar' id="sidebar">
+            <div class="s">
+                <div class="profile">
+                    <img src="images/mypro.jpeg" alt="">
+                    <h3>Shikhara Akavaram</h3>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#"><span class="item">Home</span></a> 
+                    </li>
+                    <li>
+                        <a href="workexp.html"><span class="item">Work Experience</span></a>
+                    </li>
+                    <li>
+                        <a href="projects.html"><span class="item">Projects</span></a> 
+                    </li>
+                    <li>
+                        <a href="skills.html"><span class="item">Skills and Certifications</span></a>
+                    </li>
+                    <li>
+                        <a href="qual.html"><span class="item">Academic Qualifications</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="section" style="clear:both;">
+            <div class="top_navbar">
+                <div class="hamburger" id="hamburger" onclick="Ho()">
+                    <a href="#"><i class="fas fa-bars"></i></a>
+                </div>
+            </div>
+            <div class="sec">
+                <div class="info">
+                    <img src="images/mypro.jpeg" alt="" width="300" height="400">
+                    <div class="i">
+                        <h1>Hello!</h1>
+                        <h1>I am Shikhara</h1>
+                    </div>
+                    <h3></h3>
+                    <div class="bg">
+                        <h3>I'm a Computer Science Graduate Student at George Mason University</h3>
+                        <h3>I love coding!</h3>
+                        <h3>My preferred programing language is Python and Golang</h3>
+                        <hr>
+                        <h2>Academic Qualifications</h2>
+                    </div>
+                </div>
+                <div class="qual">
+                    <div class="ml-auto"><img src="images/uni.jpg" style="border-radius: 50%;" alt=""></div>
+                    <div class="t">
+                        <p style="font-size: 18px; text-decoration: underline;"><b>George Mason University</b></p>
+                        <p style="font-size: 14px; margin-top: 10px;">Master of Science, Computer Science</p>
+                        <p style="font-size: 14px;">Jan 2022 - Dec 2023</p>
+                        <p style="font-size: 14px;">CGPA 3.85</p>             
+                    </div>
+                </div>
+                <div class="qual" style="margin-top: 40px;">
+                    <div class="ml-auto"><img src="images/uni1.jfif" style="border-radius: 50%;" alt=""></div>
+                    <div class="t">
+                        <p style="font-size: 18px; text-decoration: underline;"><b>G.Narayanamma <br> Institute Of Technology <br> And Science</b></p>
+                        <p style="font-size: 14px; margin-top: 10px;">Bachelor of Science, Computer <br> Science</h3>   
+                        <p style="font-size: 14px;">Sep 2014 - May 2018</h3>
+                        <p style="font-size: 14px;">CGPA 3.2</h3>     
+                    </div>
+                </div>
+                <hr>
+                <div class="pro"><h2>Projects</h2></div>
+                <div class="projects-grid">
+                    <div class="box" style="width: 31%; margin: auto;">
+                        <div class="mdl-card__title" style="color: rgb(255, 255, 255); height: 200px; background-image: url(&quot;images/schedule.jpg&quot;); background-position: center center; background-size: cover; background-repeat: no-repeat;">
+                        </div>
+                        <div class="mdl-card__supporting-text"><b>Online Scheduler:</b> Developed a mobile application to enable effective collaboration of customers and banks for scheduling appointments for bank
+                            services using GPS tracking. Enabled notifications for users by utilizing real-time data from banks.
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border"><p><b>Android Studio, Java, Google Map APIs, Firebase</b></p><b><u><a href="https://github.com/shikharaa" style="text-decoration: underline;">Git hub</a></u></b></div>
+                    </div>
+                    <div class="box" style="width: 31%; margin: auto;">
+                        <div class="mdl-card__title" style="color: rgb(255, 255, 255); height: 200px; background-image: url(&quot;images/blood.png&quot;); background-position: center center; background-size: cover; background-repeat: no-repeat;" static="" media="">
+                        </div>
+                        <div class="mdl-card__supporting-text"><b>Blood Contingency:</b> Created a mobile application where blood donors and hospitals were registered on the same application. If blood is required for
+                            a patient, the app will send the necessary information to blood donors via SMS.
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border"><p><b>Mango DB, Android studio, Java, Google Maps APIs</b></p><b><a href="https://github.com/shikharaa" style="text-decoration: underline;">Git hub</a></b></div>
+                    </div>
+                    <div class="box" style="width: 31%; margin: auto;">
+                        <div class="mdl-card__title" style="color: rgb(255, 255, 255); height: 200px; background-image: url(&quot;images/bmi.jpg&quot;); background-position: center center; background-size: cover; background-repeat: no-repeat;" static="" media="">
+                        </div>
+                        <div class="mdl-card__supporting-text"><b>Quetlet Index:</b> Developed an interactive web application that has the motive of calculating BMI based on the height and weight of a person,
+                            because of which, it will present the content on nutrition, diet, and exercises that are required via video links or texts.</b>
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border"><p><b>CSS, HTML, PHP, Bootstrap</b></p><b><a href="https://github.com/shikharaa" style="text-decoration: underline;">Git hub</a></b></div>
+                    </div>
+                </div>
+                <div class="skills" style="clear:both;">
+                    <hr>
+                    <h2>Work Experience</h2>
+                    <img src="images/img.jpg" alt="">
+                    <h3>Software Engineer, JP Morgan Chase & Co.</h3>
+                    <h4>(Jul 2018 – Jan 2022)</h4>
+                    <ul style="width: 90%; margin: auto;">
+                        <li style="list-style:disc;">
+                            Introduced a custom terraform provider implemented in Golang for JPMC private cloud which enabled customers throughout
+                            the firm to procure infrastructure as code.</li>
+                        <li style="list-style:disc;">
+                            Facilitated the development of Apigee reverse proxies for abstracting the authorization and authentication logic from JPMC
+                            private cloud API's which process more than 1000 requests in a minute.</li>
+                        <li style="list-style:disc;">
+                            Built the core orchestration engine and REST APIs which interact with 30+ downstream applications to deliver Infrastructure as
+                            Service (Iaas) to private cloud customers.</li>
+                        <li style="list-style:disc;">
+                            Improved the delivery and success rate of Infrastructure orders by 70% by introducing the concept of infrastructure resourcepooling. Infrastructure procurement duration was reduced from hours to minutes.</li>
+                        <li style="list-style:disc;">
+                            Created REST APIs to retrieve data from the Jira Board and display it in the user interface for review by the higher-level
+                            management team.</li>
+                        <li style="list-style:disc;">
+                            Worked with JPMC private cloud stakeholders on the designing, development, and testing of a product.</li>
+                        <li style="list-style:disc;">
+                            Established Databus data messenger at terraform provider. 
+                            This helped users to see infrastructure provision data get logged for
+                            debugging.</li>
+                        <li style="list-style:disc;">Enhanced the application's features to effectively fix the bugs and optimize the overall performance, reliability, and efficiency.</li>
+                    </ul>
+                    <hr>
+                    <h2>Skills</h2>
+                    <ul style="width: 90%; margin: auto;">
+                        <li style="list-style:disc;">
+                            <b>Programming Languages:</b> Java, Python, Golang, C, JavaScript, PHP, SQL.</li>
+                        <li style="list-style:disc;">
+                            <b>Web Technologies:</b> HTML, CSS, Bootstrap.</li>
+                        <li style="list-style:disc;">
+                            <b>Tools and Platforms:</b> Terraform, Apigee, Tableau, Kubernetes, Docker, Maven, Git,GitHub, Bitbucket, GitLab, Jira, Jenkins, IntelliJ, Visual Studio Code, Linux,
+                            Postman,Grafana, Ansible.</li>
+                        <li style="list-style:disc;">
+                            <b>Frameworks, Clouds and DBs:</b> Spring Boot, Spring, Django, Flask, AWS, Azure, Pivotal Cloud Foundry, Oracle, Heroku, Cassandra, Mango
+                            DB, MYSQL, Firebase.
+                        </li>
+                    </ul>
+                    <hr>
+                    <h2>Certifications</h2>
+                    <p>HashiCorp <b><a href="https://www.credly.com/badges/440f44d4-2f96-45fc-a79b-b2856b5922ce?source=linked_in_profile">Certified</a></b> Terraform Associate.</p>
+                    <hr>
+                </div>
+                <div class="connect" style="margin: auto">
+                    <h2>Connect With Me</h2>
+                    <a href="mailto:shikhara1997@gmail.com">
+                        <i class="fa fa-envelope" style="font-size: 100px;color:black;" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/akavaram-shikhara-720628139">
+                        <i class="fa fa-linkedin-square" style="font-size: 100px; color:black;" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://github.com/shikharaa">
+                        <i class="fa fa-github-square" aria-hidden="true" style="font-size:100px; color:black;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+
+    <script type="text/javascript" src="p1.js"></script>
+    <script type="text/javascript" src="products.json"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+</body>
+</html>

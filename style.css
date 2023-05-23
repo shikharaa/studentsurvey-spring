@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans', sans-serif;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2){
+    body {
+        width: 100%;
+    }
+    .wrapper .projects-grid .box {
+        display: flex;
+        flex-direction: column;
+        font-size: 2px;
+        font-weight: 400;
+        height: 400px;
+        overflow: scroll;
+        width: 330px;
+        z-index: 1;
+        position: relative;
+        background: #dbedff;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+    .wrapper .projects-grid .box .mdl-card__supporting-text {
+        color: rgba(0,0,0,.54);
+        text-align: center;
+        font-size: 8px;
+        line-height: 10px;
+        word-spacing: 10px;
+        padding: 5px;
+        width: 100%;
+    }
+    .wrapper .projects-grid .box .mdl-card__actions p{
+        margin-bottom: 10px;
+    }
+    .wrapper .projects-grid .box .mdl-card__actions {
+        font-size: 8px;
+        line-height: normal;
+        text-align: left;
+        width: 100%;
+        background-color: transparent;
+        padding: 16px;
+        box-sizing: border-box;
+    }
+}
+body{
+    background: #f5f6fa;
+}
+.wrapper .sidebar{
+    background: #8d44ad;
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px;
+    transition: all 0.5s ease;
+}
+.wrapper .sidebar .s .profile{
+    margin-bottom: 30px;
+    text-align:  center;
+}
+.wrapper .sidebar .s .profile img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.wrapper .sidebar .s .profile h3{
+    color: #ffffff;
+    margin: 10px 0 5px;
+}
+
+.wrapper .sidebar .s ul li a{
+    text-align: center;
+    display: block;
+    padding: 13px 30px;
+    border-bottom: 1px solid #cc00cc;
+    color: rgb(241, 237, 237);
+    font-size: 14px;
+    position: relative;
+    font-family: 'open sans', sans-serif;
+}
+.wrapper .sidebar .s ul li a:hover,
+.wrapper .sidebar .s ul li a.active{
+    color: #660066;
+    background: white;
+    border-right: 2px solid(5, 60, 104);
+}
+.wrapper .section{
+    width: calc(100% - 225px);
+    margin-left: 225px;
+    transition: all 0.5s ease;
+}
+.wrapper .section .top_navbar{
+    background-color: #8d44ad;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+.wrapper .section .top_navbar .hamburger a{
+    font-size: 28px;
+    color: #f4fbff;
+}
+.wrapper .section .top_navbar .hamburger a:hover{
+    color: #a3ecff;
+}
+body.active .wrapper .sidebar{
+    display: block;
+    left: -225px;
+}
+body.active .wrapper .section{
+    margin-left: 0;
+    width: 100%;
+}
+body.active .wrapper{
+    background-size: cover;
+}
+.wrapper .info img{
+    display: block;
+    margin-top: 70px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+.wrapper .info h2{
+    text-align: center;
+    margin: 40px;
+}
+.wrapper .info .bg h3{
+    text-align: center;
+}
+.wrapper .info .bg hr{
+    margin: 15px;
+}
+
+.wrapper .projects-grid {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.wrapper .projects-grid .box {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 400;
+    height: calc(100% + 225px);
+    overflow: auto;
+    width: 330px;
+    z-index: 1;
+    position: relative;
+    background: #dbedff;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.wrapper .projects-grid .box .mdl-card__supporting-text {
+    color: rgba(0,0,0,.54);
+    text-align: left;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 16px;
+    width: 100%;
+}
+.wrapper .projects-grid .box .mdl-card__actions p{
+    margin-bottom: 10px;
+}
+.wrapper .projects-grid .box .mdl-card__actions {
+    font-size: 14px;
+    line-height: normal;
+    text-align: left;
+    width: 100%;
+    background-color: transparent;
+    padding: 16px;
+    box-sizing: border-box;
+}
+.skills h2{
+    margin: 20px;
+    text-align: center;
+}
+.skills img{
+    display: block;
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.skills ul{
+    padding-top: 20px;
+}
+.skills h3{
+    font-size: 18 px;
+    text-align: center;
+}
+.skills h3{
+    font-size: 16 px;
+    text-align: center;
+}
+ol, ul {
+    font-size: 14px;
+    line-height: 24px;
+}
+.wrapper .skills hr{
+    margin: 15px;
+}
+.wrapper .connect{
+    text-align: center;
+}
+.wrapper .connect h2{
+    margin: 40px;
+}
+.wrapper .connect a{
+    margin-left: 20px;
+}
+.skills p{
+    text-align: center;
+    font-size: 18px;
+}
+.mlinks{
+    margin-top: 20px;
+}
+.skills h3{
+    margin: 20px;
+}
+.skills h4{
+    text-align: center;
+    margin: 20px;
+}
+.pro{
+    text-align: center;
+    margin: 20px;
+}
+.qual {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.ml-auto {
+    margin-left: auto!important;
+}
+.mr-auto {
+    margin-right: auto!important;
+}
+.qual .imag{
+    display: inline-block;
+}
+.qual .t{
+    margin-left: 100px;
+}
+.ml-auto img{
+    width: 150px;
+}
+hr{
+    margin: 20px;
+}
+h1{
+    text-align: center;
+
+}
+.i{
+    margin-bottom: 20px;
+}
